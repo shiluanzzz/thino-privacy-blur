@@ -1,0 +1,22 @@
+{
+  "name": "thino-privacy-blur",
+  "version": "0.1.0",
+  "description": "Automatically blur previously typed content while writing in Thino and reveal on mouse hover.",
+  "main": "main.js",
+  "scripts": {
+    "check": "node --check main.js"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "thino",
+    "privacy",
+    "blur"
+  ],
+  "author": "shiluan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiluanzzz/thino-privacy-blur.git"
+  }
+}

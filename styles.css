@@ -1,0 +1,62 @@
+/* Thino Privacy Blur */
+
+.thino-pb-editor {
+  --thino-pb-blur-radius: 5px;
+}
+
+.thino-pb-editor .thino-pb-blur {
+  filter: blur(var(--thino-pb-blur-radius, 5px));
+  opacity: 0.72;
+  transition: filter 150ms ease-out, opacity 150ms ease-out;
+  border-radius: 2px;
+}
+
+.thino-pb-editor .thino-pb-blur.thino-pb-revealed {
+  filter: blur(0px);
+  opacity: 1;
+}
+
+/* Blur embedded images, embeds, and task checkboxes on blurred lines (revealed on intentional hover) */
+.thino-pb-editor .cm-line.thino-pb-blurred-line img,
+.thino-pb-editor .cm-line.thino-pb-blurred-line .internal-embed,
+.thino-pb-editor .cm-line.thino-pb-blurred-line .cm-embed-block,
+.thino-pb-editor .cm-line.thino-pb-blurred-line .task-list-item-checkbox {
+  filter: blur(var(--thino-pb-blur-radius, 5px));
+  opacity: 0.65;
+  transition: filter 150ms ease-out, opacity 150ms ease-out;
+}
+
+.thino-pb-editor .cm-line.thino-pb-blurred-line.thino-pb-line-revealed img,
+.thino-pb-editor .cm-line.thino-pb-blurred-line.thino-pb-line-revealed .internal-embed,
+.thino-pb-editor .cm-line.thino-pb-blurred-line.thino-pb-line-revealed .cm-embed-block,
+.thino-pb-editor .cm-line.thino-pb-blurred-line.thino-pb-line-revealed .task-list-item-checkbox {
+  filter: blur(0px);
+  opacity: 1;
+}
+
+/* Status bar button */
+.thino-pb-status-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.thino-pb-status-bar:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.thino-pb-status-bar.is-active {
+  color: var(--text-accent);
+}
+
+.thino-pb-status-bar.is-paused {
+  opacity: 0.55;
+}
+
+.thino-pb-status-bar svg {
+  width: 14px;
+  height: 14px;
+}
