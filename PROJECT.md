@@ -16,15 +16,13 @@ Thino Privacy Blur 是一个面向桌面端 Obsidian 的轻量开源插件，用
 
 ## 3. 目前待办
 
-- 创建公开 GitHub 仓库 `shiluanzzz/thino-privacy-blur` 并推送代码与首个 Release tag（待用户确认推送）。
-- 向 `obsidianmd/obsidian-releases` 提交社区插件 PR 并通过自动/人工审核（步骤见 [Obsidian 社区发布指引](docs/operations/obsidian-community-release.md)）。
-- 视审核反馈补充演示动图或截图到 `README.md`。
+- 在 [Obsidian Community Directory](https://community.obsidian.md) 登录 Obsidian 账号、绑定 GitHub 账号并提交 `https://github.com/shiluanzzz/thino-privacy-blur`（步骤见 [Obsidian 社区发布指引](docs/operations/obsidian-community-release.md)）。
 
 ## 4. 近期已办
 
 **铁律：最多 10 条，按 LRU 维护；单条限 1–3 句结论与引用链接，禁止把多件无关事项拼成巨段以绕过条数限制。新增或对同一事项作实质更新时合并去重并移到首条，记录更新日期；单纯阅读不刷新顺序。超过 10 条立即删除末尾最久未更新项，不在本节另建归档或追加历史。**
 
-- 2026-11-27：完成开源仓库初始化、双语界面适配、GitHub Release 自动工作流及文档体系搭建，设计理由与踩坑决策见 [插件架构与关键踩坑决策](.agents/notes/implemented/2026-11-27-thino-privacy-blur-architecture.md)。
+- 2026-11-27：完成公开 GitHub 仓库发布、首个 `0.1.0` Release 资产打包、4.8 秒演示 GIF 与中英文 README 补齐，并将发布指引更新为官方 `community.obsidian.md` 新流程；核心架构决策见 [插件架构与关键踩坑决策](.agents/notes/implemented/2026-11-27-thino-privacy-blur-architecture.md)。
 
 ## 5. 重要踩坑经验
 

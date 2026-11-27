@@ -13,4 +13,4 @@
 - [AGENTS.md](AGENTS.md)：仓库协作规则、核心资产、验证与发布边界。
 - [README.md](README.md)：开源仓库英文门面说明与演示入口。
 - [README.zh-CN.md](README.zh-CN.md)：开源仓库中文参考说明与使用指南。
-- [docs/operations/obsidian-community-release.md](docs/operations/obsidian-community-release.md)：创建 GitHub Release 并向 `obsidianmd/obsidian-releases` 提交社区插件的完整清单。
+- [docs/operations/obsidian-community-release.md](docs/operations/obsidian-community-release.md)：创建 GitHub Release 并通过 `community.obsidian.md` 提交社区插件的完整清单。

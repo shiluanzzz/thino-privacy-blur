@@ -22,6 +22,6 @@
 ## 项目文档
 
 - [PROJECT.md](PROJECT.md)：项目现状、当前能力、待办与踩坑经验。
-- [Obsidian 社区发布指引](docs/operations/obsidian-community-release.md)：GitHub Release 与提交 `obsidian-releases` 清单。
+- [Obsidian 社区发布指引](docs/operations/obsidian-community-release.md)：GitHub Release 与提交 Obsidian 社区插件市场清单。
 - [INDEX.md](INDEX.md)：全仓文档扁平导航。
 - [AGENTS.md](AGENTS.md)：仓库协作规则与发布边界。
